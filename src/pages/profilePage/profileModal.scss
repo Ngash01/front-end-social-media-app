@@ -1,0 +1,61 @@
+.right{
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  background-color: white;
+  padding: 2rem;
+  // border-radius: 1rem;
+  margin-top: 2rem;
+  height: fit-content;
+
+  .topRight{
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .inputForm{
+    display: flex;
+    flex-direction: column;
+    gap: 1.4rem;
+
+    .names{
+      display: flex;
+      gap: 8px;
+      
+      .input1{
+        outline: none;
+        border: none;
+        background-color: rgb(221, 218, 218);
+        padding: 0.6rem;
+        border-radius: 7px;
+      }
+    }
+    .input1{
+      outline: none;
+        border: none;
+        background-color: rgb(221, 218, 218);
+        padding: 0.6rem;
+        border-radius: 7px;
+    }
+    .passwords{
+      display: flex;
+      gap: 8px;
+    }
+
+    .imagesProfileCover{
+      display: flex;
+      gap: 1rem;
+    }
+  }
+  .logins{
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    // margin-top: 1rem;
+    justify-content: flex-end;
+    
+    Link{
+      text-decoration: none;
+    }
+  }
+}

@@ -1,0 +1,73 @@
+.wrapper{
+  width: 100%;
+  margin-top: 2rem;
+
+  .searchBar{
+    display: flex;
+    gap: 2rem;
+    padding: 2rem;
+    background-color: white;
+
+    .imgProfile{
+      width: 3rem;
+      height: 3rem;
+    }
+
+    .InputBar{
+      display: flex;
+      flex-direction: column;
+      gap: 0.5rem;
+      width: 100%;
+      position: relative;
+
+
+      .previewImage{
+        position: relative;
+        right: 0;
+
+        .mdoutline{
+          cursor: pointer;
+          position: absolute;
+          top: 0.5rem;
+          right: 0.1rem;
+        }
+        img{
+          width: 100%;
+          max-height: 20rem;
+          object-fit: contain;
+        }
+      }
+
+      .searchInput{
+        outline: none;
+        padding: 0.6rem;
+        border: none;
+        border-radius: 7px;
+        background-color: rgb(221, 218, 218);
+      }
+
+      .media{
+        display: flex;
+        justify-content: space-between;
+
+        div:nth-of-type(1){
+          color: green;
+          cursor: pointer;
+        }
+        div:nth-of-type(2){
+          color: purple;
+          cursor: pointer;
+
+        }
+        div:nth-of-type(3){
+          color: orange;
+          cursor: pointer;
+        }
+        
+      }
+    }
+    
+  }
+}
+
+

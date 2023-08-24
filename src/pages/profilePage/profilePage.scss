@@ -1,0 +1,25 @@
+.profile{
+  position: relative;
+
+  .proFilePage{
+    display: flex;
+    gap: 2rem;
+
+    .left{
+      flex: 1;
+    }
+    .center{
+      flex:2
+    }
+    .right{
+      flex:1;
+      margin-left: 20px;
+    }
+  }
+
+  .profileModal{
+    position: absolute;
+    
+  }
+
+}

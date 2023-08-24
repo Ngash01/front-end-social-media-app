@@ -1,0 +1,33 @@
+.followersProfile{
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  margin-bottom: 1rem;
+  z-index: 99;
+
+
+  .followersImg{
+    width: 3rem;
+    border-radius: 50%;
+  }
+  .name{
+
+    p:nth-of-type(1){
+      font-weight: 600;
+      font-size: 15px;
+    }
+    p:nth-of-type(2){
+      font-size: 15px;
+      color: gray;
+    }
+  }
+  .followButton{
+    color: white;
+    background-color: var(--orange);
+    height: fit-content;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 7px;
+    cursor: pointer;
+  }
+}

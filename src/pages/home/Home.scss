@@ -1,0 +1,23 @@
+.home{
+  display: flex;
+  gap: 2rem;
+  
+
+  .profile{
+    flex: 1;
+  }
+
+  .feed{
+    flex: 3;
+    // background-color: aqua;
+  }
+
+  .right{
+    flex: 1;
+    display: flex;
+    gap: 5px;
+    margin-left: 40px;
+    margin-top: -1.9rem;
+  }
+}
+
